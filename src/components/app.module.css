@@ -1,0 +1,10 @@
+.sectionMain {
+  margin-top: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #013437;
+  background: #e6e5e5;
+}

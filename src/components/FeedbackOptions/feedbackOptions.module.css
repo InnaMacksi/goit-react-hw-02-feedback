@@ -1,0 +1,30 @@
+.optionBtn {
+  cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: rgb(90, 171, 157);
+  border: 2px solid #08e1c0;
+  border-radius: 7px;
+  /* box-shadow: inset 0px 0px 3px 3px rgb(235, 233, 178); */
+  transition: transform 500ms cubic-bezier(0.215, 0.61, 0.355, 1),
+    box-shadow 500ms;
+}
+.optionBtn {
+    color: rgb(250, 252, 251);
+}
+.optionBtn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.optionBtn:hover,
+.optionBtn:focus {
+  transform: scale(1.1);
+background-color: rgb(6, 246, 186);
+}
+
+.buttonWrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
