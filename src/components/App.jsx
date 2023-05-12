@@ -30,11 +30,12 @@ export class App extends Component {
   };
 
   render() {
+    const options = Object.keys(this.state);
     return (
       <section className={styles.sectionMain}>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['good', 'neutral', 'bad']}
+            options={options}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
